@@ -10,12 +10,6 @@ import org.springframework.web.server.ResponseStatusException;
 @Service
 public class ProgressService {
 
-  private static final List<ModuleProgress> BASE_MODULES =
-      List.of(
-          new ModuleProgress("mod1", "Introduction to OOP", ModuleStatus.NOT_STARTED),
-          new ModuleProgress("mod2", "Inheritance", ModuleStatus.NOT_STARTED),
-          new ModuleProgress("mod3", "Polymorphism", ModuleStatus.NOT_STARTED));
-
   private final Map<String, ProgressResponse> store =
       Map.of(
           "user1",
