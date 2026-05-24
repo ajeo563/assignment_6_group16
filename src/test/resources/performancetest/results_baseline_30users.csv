@@ -1,4 +1,4 @@
 Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
-GET /api/progress/user2,15,5,5,6,6,7,4,7,0.000%,.26550,0.14,0.05
-GET /api/progress/user1,15,4,5,5,5,6,4,6,0.000%,.28444,0.15,0.05
-TOTAL,30,4,5,6,6,7,4,7,0.000%,.53099,0.28,0.10
+GET /api/progress/user1,988,5,3,17,17,19,0,20,0.000%,2.77740,1.47,0.52
+GET /api/progress/user2,980,5,3,17,17,19,0,20,0.000%,2.76735,1.47,0.52
+TOTAL,1968,5,3,17,17,19,0,20,0.000%,5.53160,2.93,1.04
